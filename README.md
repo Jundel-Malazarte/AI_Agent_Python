@@ -34,6 +34,8 @@ The chatbot processes user queries and returns structured responses containing:
 | **wikipedia** | Latest | Wikipedia API wrapper for information retrieval |
 | **pydantic** | Latest | Data validation using Python type annotations |
 | **python-dotenv** | Latest | Environment variable management |
+| **duckduckgo-search** | Latest | DuckDuckGo search integration for web queries |
+| **ddgs** | Latest | Alternative DuckDuckGo search library |
 
 ## Installation
 
@@ -68,6 +70,8 @@ Create a `.env` file in the project root directory:
 ```
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
+
+⚠️ **IMPORTANT**: You will need **Anthropic API credits** to run this code. The AI agent uses Claude 3.5 Sonnet, which requires an active API account with available credits. Without credits, the API calls will fail with a billing error. Visit [Anthropic's Plans & Billing](https://console.anthropic.com/account/billing/overview) to add credits to your account.
 
 ## Usage
 
